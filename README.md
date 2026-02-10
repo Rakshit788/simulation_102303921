@@ -464,28 +464,12 @@ Standardization: (x - mean) / std
 **ML Advantage:** Real-time reactive control based on learned aerodynamics
 
 
-## Conclusions
-
-### Project Success Metrics
-
-| Metric | Result | Target | Status |
-|--------|--------|--------|--------|
-| Simulator implemented | ✓ Physics-based CFD | Accurate physics | ✓ PASS |
-| Dataset generated | ✓ **1000 simulations** | 500+ | ✓✓ EXCELLENT |
-| Features extracted | ✓ 11 features | 5+ | ✓ PASS |
-| ML models trained | ✓ 8 models | 5+ | ✓ PASS |
-| Best model R² | **0.9785 (97.85%)** | >0.9 | ✓✓ EXCEPTIONAL |
-| Wind tunnel replacement | ✓ Yes (better accuracy) | Industry ready | ✓✓ PRODUCTION READY |
-| Visualization quality | ✓ Professional with images | Publication ready | ✓ PASS |
-
 ### Lessons Learned
 
 1. **Simulations enable Near-Perfect ML:** Physics-based data with 1000 samples provides exceptional training signal (97.85%!)
 2. **Severe Nonlinearity Demands Advanced Methods:** 19% gap between best and linear proves trees essential
 3. **Boosting Beats Bagging:** XGBoost's sequential refinement superior to Random Forest averaging
 4. **Generalization is Perfect:** No train/test gap means models captured true physics, not noise
-
-
 
 
 ## Technical Stack
@@ -499,7 +483,7 @@ Standardization: (x - mean) / std
 - **XGBoost:** Gradient boosting
 ---
 
-**Status:** Ready for Production  
+
 **Author:** Rakshit   
 **Rool No:** 102303921
 
